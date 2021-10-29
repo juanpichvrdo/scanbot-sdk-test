@@ -11,7 +11,7 @@ const config = {
 };
 
 async function onBarcodesDetected(e) {
-    console.log(e);
+    window.alert(e);
 }
 
 async function onScannerError(e) {
